@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header.jumbotron {
+    background-color: #f8f9fa;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 1rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.animated-text-container {
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.animated-text {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    animation: moveText 10s linear infinite;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
