@@ -9,3 +9,15 @@ This is a one-page website for a fictional clothing and shoes brand, "Famous Bra
 - Animated text banner
 - Contact form with validation
 - Dummy "Add to Cart" functionality
+## Technologies Used
+
+  - HTML5:
+        Structure the content and layout of the website.
+
+- CSS3:
+        Style the website, including the layout, colors, fonts, and animations.
+- Bootstrap:
+        A CSS framework used for responsive design and predefined styling components.
+
+- JavaScript:
+        Add interactivity to the website, such as smooth scrolling, form validation, and "Add to Cart" functionality.
